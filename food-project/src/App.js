@@ -1,5 +1,9 @@
 import {useEffect, useState} from 'react'
 import './App.css';
+import Favorites from './components/Favorites';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import Showproducts from './components/Showproducts';
 
 
 function App() {
@@ -22,6 +26,11 @@ function App() {
   
   return (
     <div className="App">
+      <h1>Food Group</h1>
+      <Navbar/>
+      <Home/>
+      <Showproducts />
+      <Favorites />
 
     
     </div>
